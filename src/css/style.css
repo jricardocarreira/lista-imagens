@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0 20px;
+}
+
+.container .card {
+    position: relative;
+    width: 335px;
+    height: 432px;
+}
+
+.container .card img {
+    width: 100%;
+}
+
+.container .card .info {
+    position: absolute;
+    color: #fff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.container .card .info h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container .card .info p {
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 300;
+}
+/* 
+.rome {
+    background-image: url(/src/images/rome.png);
+    background-color: #fff
+}
+
+.boat {
+    background-image: url(/src/images/boat.png);
+    background-color: #fff
+}
+
+.sand {
+    background-image: url(/src/images/sand-and-sea.png);
+    background-color: #fff
+}
+
+.starry {
+    background-image: url(/src/images/starry-night.png);
+    background-color: #fff
+} */

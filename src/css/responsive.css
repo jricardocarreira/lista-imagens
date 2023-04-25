@@ -1,0 +1,14 @@
+@media(max-width: 1440px) {
+    main {
+        height: 100%;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 45px 0;
+    }
+
+    .container .card .info {
+        bottom: 20px;
+    }
+}
